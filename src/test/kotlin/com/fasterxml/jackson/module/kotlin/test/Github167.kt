@@ -7,7 +7,8 @@ import java.util.function.IntSupplier
 
 
 class TestGithub167 {
-    val samObject = IntSupplier { 42 }
+    val answer = 42
+    val samObject = IntSupplier { answer }
 
     @Test
     fun withKotlinExtension() {
